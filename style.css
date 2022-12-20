@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    width: 100%;
+}
+h1 {
+    font-size: 100px;
+}
+
+.button {
+    text-align: center;
+    margin-top:50%;
+}
+a {
+    font-family: 'poppins',sans-serif;
+   
+}
+.btn {
+    background-color: aqua;
+    text-decoration: none;
+    padding: 15px 32px;
+    font-size: 50px;
+    border-radius: 20px;
+}
+
+ /* Biar webnya responsive */
+
+ @media (min-width: 1024px){
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 768px){
+   h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    a{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
